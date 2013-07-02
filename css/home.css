@@ -1,0 +1,145 @@
+#menu 
+	{
+	margin: 0px 0 0 1px;
+	width: 196px;		/* 18em controls the width of the meun */
+	background: #cccccc;
+	text-align: left;
+	}
+
+#menu ul 
+	{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+#menu a, #menu h2 
+	{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 110%;		/* 11px/16px */
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #888 #555 #bbb;
+	margin: 0;
+	padding: 5px 3px 5px 3px; 		/* 2px 3px; */
+	}
+
+#menu h2 
+	{
+	color: #000000;
+	background-color: #ffffff;	/* was 000 */
+	text-transform: uppercase;
+	background-position: right;
+	background-repeat: no-repeat;
+	}
+
+#menu a 
+	{
+	color: #000;
+	background: #efefef;
+	text-decoration: none;
+	}
+
+#menu a:hover 
+	{
+	color: #a00;
+	background: #fff;
+	}
+
+#menu li 
+	{
+	position: relative;
+	}
+
+#menu ul ul ul 
+	{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	}
+
+div#menu ul ul ul,
+div#menu ul ul li:hover ul ul
+	{
+	display: none;
+	}
+
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+	{
+	display: block;
+	}
+
+
+
+.regularbluefont 
+	{
+	color: #336699;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+	}
+a 
+	{
+	color: #336699;
+	}
+.style3 
+	{
+	border: 2px solid #996633;
+	background-color: #FFFFFF;
+	}
+.style3 
+	{
+	border: 2px solid #996633;
+	background-color: #FFFFFF;
+	}
+
+
+.smallbluefont 
+	{
+	font-size: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #336699;
+	}
+.smallbluefont 
+	{
+	font-size: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #336699;
+	}
+/*
+ * <style type="text/css" media="screen">
+ *
+<!--[if IE]<!-->
+ #menu ul li 
+	{
+	float: left; 
+	width: 100%;
+	}
+<!--<![endif]-->
+*
+ * </style>
+ */
+
+<!--[if lt IE 7]>
+/* <style type="text/css" media="screen"> */
+body 
+	{
+	behavior: url(csshover.htc);
+	font-size: 100%;
+	} 
+#menu ul li {float: left; width: 100%;}
+#menu ul li a {height: 1%;} 
+
+#menu a, #menu h2 
+	{
+	font-weight: bold;
+	font-size: .70em;		/* 0.7em/1.4em; */
+	line-height: 1.4em;
+	font-family: verdana, arial, helvetica, sans-serif;
+	} 
+
+/* </style> */
+<![endif]-->

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<title> About the SSCNC </title> 
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta http-equiv="Content-Style-Type" content="text/css" /> 
+<meta name="keywords"    content="Northern California, Standard Schnauzer Club of Northern California"  />
+<meta name="description" content="SSCNC- Standard Schnauzer Club of Northern California - Conformation"  />
+
+<link href="/css/sscnc1.css" rel="stylesheet" type="text/css" />
+<link href="/css/home.css"   rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/javascript/bannerbox.js"></script>
+<script type="text/javascript" src="/javascript/home_js.js"></script>
+<script type="text/javascript" src="/javascript/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="/javascript/sscnc_emails.js"></script>
+
+<style type="text/css">
+.greenback
+	{
+	background-color: #00ee00;
+	}
+</style>
+</head>
+
+<body>
+<!--
+	The main container box includes:
+	- banner box on top - this is the width of the container box
+	- navigation box on the left - javascript generates the nav buttons
+	- content box on the right  - this contains the page contents
+-->
+<center>
+<div id="main-container" class="maincontainer">
+	<!--
+		The banner box contains 3 images.  In case these images change,
+		then change the PHP script that includes them.
+	-->
+	<div id="banner-box"  class="bannerbox">
+		<script type="text/javascript">bannerbox();</script>
+	</div>
+
+	<div id="content-box" class="contentbox">
+		<h1 id="top" class="h1style">Standard Schnauzer Club of Northern California (SSCNC)</h1>
+		<div class="maintext">
+<h2  class="h1style">About Us</h2>
+		<p>
+The Standard Schnauzer Club of Northern California, the Nation's
+oldest regional club dedicated to the Standard Schnauzer, has for
+64 years sought to protect and advance the interest of the
+breed by encouraging sportsmanship among the owners, breeders and
+fanciers of the Standard Schnauzer.
+<br /><br />
+Through its Rescue Network and events such as the AKC CGC Program, 
+Regional &quot;Specialty&quot;, and the Annual Christmas Party, the SSCNC
+seeks to strengthen the breed by helping build a community of
+these wonderful dogs and their human caregivers. 
+<br /><br />
+If there is specific information you are looking for and are
+unable to find it in these pages, please contact us at
+<script type="text/javascript">doEmails('sscnc_membership');</script> 
+
+<br />Click here to view <a href="pdf/June_4_2006_Constitution_Bylaws.pdf">The Constitution of the SSCNC.</a>
+		</p>
+		
+<h2  class="h1style">Our Goals</h2>
+
+			<ul class="uldisc">
+			<li class="lib">To define the standard of the Standard Schnauzer and to urge members
+and breeders to accept the standard as approved by the American
+Kennel Club as the only standard of excellence by which Standard
+Schnauzers shall be judged;</li>
+
+<li class="lib">To encourage and promote quality in the breeding of the purebred
+Standard Schnauzers and to do all things possible to bring their natural
+qualities to perfection;</li>
+<li class="lib">To promote the Standard Schnauzer's natural abilities as a show dog,
+obedience dog, family dog and guard dog, by sponsoring and supporting
+dog shows, obedience trials, and performance events such as tracking
+tests, agility and herding trials;</li>
+<li class="lib">To serve as a clearing house to provide information for the general public
+about the Standard Schnauzer, its breeding, care, and training;</li>
+<li class="lib">To protect and advance the interest of the breed by encouraging
+sportsmanship among the owners, breeders and fanciers of the Standard
+Schnauzer;</li>
+<li class="lib">To conduct licensed specialty Companion and Performance trials under
+the rules of the American Kennel Club,</li>
+<li class="lib">To serve as regional coordinator for Rescue efforts for all Standard
+Schnauzers;</li>
+<li class="lib">To Provide current referral information about Breeders, Rescue, and the
+Breed without bias or omission.</li>
+	</ul>
+		</div>
+		<hr />
+		<div id="container-bottom" class="containerbottom">
+			<script type="text/javascript">footerbox();</script>
+		</div>
+	</div>
+	
+	<div id="navigation-box" class="navigationbox">
+		<div id="menu">
+			<script type="text/javascript">showMenu_m( 0 );</script>
+			<script type="text/javascript">showMenu_n( 0 );</script>
+		</div>
+	</div>
+</div>	<!-- end the maincontainer box -->
+</center>
+<script  type="text/javascript">  
+
+/*
+ * This function will change the background color of the ID specified
+ * and change the background color to what is specifiec in the class.
+ */
+$().ready(function() {
+   $("#top").hover(function() {
+     $(this).addClass("greenback");
+   },function(){
+     $(this).removeClass("greenback");
+   });
+ });
+</script>
+
+
+</body>
+</html>

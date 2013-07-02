@@ -1,0 +1,82 @@
+/*
+ * October 2010
+ * styles for the new page layout - does not use frames
+ */
+.img-shadow3 
+	{
+	float: right;
+	width: 180px;
+	height: 220px;
+	background: url(images/shadow.gif) no-repeat bottom right  #fff;
+	display: block;
+	position: relative;
+	border: 0px solid #a9a9a9;
+	margin: -6px 6px 6px -6px;
+	padding: 0 8px 8px 0;
+	}
+	
+/*
+ * Styles for each page.
+ */ 
+.containerAll
+	{
+	width: 922px;
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 4px solid black;
+	position: relative;
+	}
+.containerRight
+	{
+	float: right;
+	width: 716px;
+	border-left: 0px solid black;
+	padding-left: 8px;
+	}
+.containerNav
+	{
+	float: left;
+	width: 190px;
+	border-right:  2px solid #555555;
+	border-bottom: 2px solid #555555;
+	background-image: url(images/long_preston-59opacity.jpg);
+	background-repeat: no-repeat;
+	height: 600px; 
+	background-position: left;
+	background-color: #a0a0a0; 
+	padding: 0; 
+	margin: 0;
+	}
+	
+/*
+ * Styles used within the navigation frame.
+ */
+.h55
+	{
+	line-height: 18px;
+	letter-spacing: 1px;
+	padding-top: 4px;	/* original value was 14 */
+	}
+a
+	{
+	color: #0011dd;
+	}
+.navList
+	{
+	font-family: 'verdana Arial Helvetica Geneva Swiss SunSans-Regular';
+	line-height: 22px;
+	padding-left: 16px; 
+	/* list-style-type: disc;  */
+	letter-spacing: .1em;
+	font-size: 14px;
+	font-weight: bold;
+	list-style-type: none;
+	}
+.title-bar
+	{
+	width: 90%; 
+	height: 7px; 
+	background-color: #707070;
+	}

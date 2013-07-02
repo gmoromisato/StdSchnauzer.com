@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<title> Funday 2007 </title> 
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+<meta http-equiv="Content-Style-Type" content="text/css" /> 
+<meta name="keywords"    content="Northern California, Standard Schnauzer Club of Northern California"  />
+<meta name="description" content="SSCNC- Standard Schnauzer Club of Northern California - Conformation"  />
+
+<link href="/css/sscnc1.css" rel="stylesheet" type="text/css" />
+<link href="/css/home.css"   rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/javascript/bannerbox.js"></script>
+<script type="text/javascript" src="/javascript/home_js.js"></script>
+
+
+<script type="text/javascript" language="javascript">
+var pictures = new Array( 'ssd',
+	'sculpting_contest_begins.jpg', 
+	'ladonna_and_her_sculpture.jpg', 
+	'more_sculpting.jpg', 
+	'warm_up_for_eating_contest.jpg', 
+	'don_dalton_art_project.jpg', 
+	'clay_sculpting_contest.jpg', 
+	'wont_eat_anything_champ_ladonna.jpg', 
+	'wont_eat_anything_champ.jpg', 
+	'girls_and_sculptures.jpg', 
+	'sculpting.jpg', 
+	'my_dog_wont_eat.jpg'
+	 );
+var widths = new Array( "2",
+	"395", "339", "253", "287", "240", "339", "162", "214", "326", 
+	"285", "250" );
+var heights = new Array( "3",
+	"300", "291", "323", "423", "315", "270", "292", "316", "326",
+	"265", "224" )
+
+// <img src="jpgfiles/lucas/pictures[$index].jpg" width="375" 
+//	  height="dims[ $index ]" alt="" />
+
+var pic_count = pictures.length;
+var waittime = 1500;
+var himage ='';
+
+function show_pics( thisone )
+{
+var locat= document.getElementById( 'picbox' )
+var path = "images/events/funday07/" + pictures[ thisone ];
+
+    if ( thisone > 1 )
+	  locat.removeChild( himage );
+
+    locat.style.width  =  widths[ thisone ] + 'px';
+    locat.style.height = heights[ thisone ] + 'px';
+
+    himage = document.createElement( 'img' );
+    himage.setAttribute( 'src', path );
+    himage.setAttribute( 'width',   widths[ thisone ] );
+    himage.setAttribute( 'height', heights[ thisone ] );
+   
+    locat.appendChild( himage );
+    nextone = thisone + 1;
+    if ( nextone >= pic_count )
+	   return false;
+
+    window.setTimeout( "show_pics( nextone );", waittime );
+}
+
+</script>
+
+</head>
+
+<body onload="show_pics( 1 );">
+<!--
+	The main container box includes:
+	- banner box on top - this is the width of the container box
+	- navigation box on the left - javascript generates the nav buttons
+	- content box on the right  - this contains the page contents
+-->
+<center>
+<div id="main-container" class="maincontainer">
+	<!--
+		The banner box contains 3 images.  In case these images change,
+		then change the PHP script that includes them.
+	-->
+	<div id="banner-box"  class="bannerbox">
+		<script type="text/javascript">bannerbox();</script>
+	</div>
+
+	<div id="content-box" class="contentbox">
+		<h1 class="h1style">Funday 2007</h1>
+		<div class="maintext">
+			<div id='picbox' align='center' style="width: 500px; height: 330px; border: 3px solid blue;">
+			</div>
+			<div id='replay'>
+				<form onsubmit="show_pics( 1 );" action="">
+				<input style="font-size: 10px;" name="replayshow" type="submit" value="Replay The Funday 2007 Slides" />
+			</form>
+			</div>
+			<br clear="all" />
+		</div>
+		<hr />
+		<div id="container-bottom" class="containerbottom">
+			<script type="text/javascript">footerbox();</script>
+		</div>
+	</div>
+	
+	<div id="navigation-box" class="navigationbox">
+		<div id="menu">
+			<script type="text/javascript">showMenu_m( 0 );</script>
+			<script type="text/javascript">showMenu_n( 0 );</script>
+		</div>
+	</div>
+</div>	<!-- end the maincontainer box -->
+</center>
+
+</body>
+</html>

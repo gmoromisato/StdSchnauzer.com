@@ -1,0 +1,225 @@
+.regularbluefont {
+	color: #336699;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+}
+a {
+	color: #336699;
+}
+.style3 {
+	border: 2px solid #996633;
+	background-color: #FFFFFF;
+}
+.smallbluefont {
+	font-size: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #336699;
+}
+
+body
+	{
+	background-color: lavender;
+	}
+.maincontainer
+	{
+	width: 900px;
+	/* height: 600px; */
+	padding: 6px 0 6px 0;
+	background-color: lavender;
+	border: 0px solid red;
+	/* margin-bottom: 18px; */
+	margin: 0 auto 18px auto;
+	}
+.bannerbox
+	{
+	border: 2px solid #b4b4b4;
+	background-color: #ffffff;
+	width: 896px;
+	height: 132px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	}
+.contentbox
+	{
+	width: 698px;
+	height: 430px;
+	border: 0px solid black;
+	float: right;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+.navigationbox
+	{
+	width: 198px;
+	height: 320px;
+	border: 0px solid black;
+	padding: 1px;
+	float: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+	
+.content-table
+	{
+	width: 215px;
+	height: 140px;
+	padding: 0 0 0 13px;
+	background-color: #a2a2a2;
+	font-family: verdana, sans serf;
+	font-size: 85%;
+	}
+/*
+ * The following style is used on the main/home/index page
+ * under each image in the content table.
+ */
+.notation
+	{
+	text-align: center; 
+	padding-top: 0; 
+	font-family: verdana; 
+	font-size: 85%;
+	}
+.maintext
+	{
+	text-align: left; 
+	padding-left: 8px; 
+	font-family: verdana; 
+	font-size: 90%;
+
+	}
+.maintext-events
+	{
+	text-align: left; 
+	padding-left: 8px; 
+	font-family: verdana; 
+	font-size: 90%;
+	width: 440px;
+	}
+.containerbottom
+	{
+	clear: both;
+	width: 698px;
+	height: 36px;
+	background-color: lavender;
+	border: 0px solid red;
+	font-family: verdana;
+	font-size: 70%;
+	}
+	
+.h1style
+	{
+	font-family: verdana; 
+	font-size: 130%;
+	}
+.h2style
+	{
+	font-family: verdana; 
+	font-size: 115%;
+	}
+.h3style
+	{
+	font-family: verdana; 
+	font-size: 100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	}
+
+.uldisc
+	{
+	list-style-type: disc;
+	}
+.ulnone
+	{
+	list-style-type: none;
+	}
+/*
+ * Styles from the old web site.
+ */
+.venue
+	{
+	font-family: verdana;
+	font-size: 12px;
+	}
+.venue2
+	{
+	font-family: verdana;
+	font-size: 120%;
+	margin-top: 1.0em;
+	}
+.spr
+	{
+	text-align: right;
+	padding-right: 5px;
+	height: 28px;
+	vertical-align: top;
+	}
+
+.spl
+	{
+	text-align: left;
+	padding-left: 5px;
+	height: 28px;
+	vertical-align: top;
+	}
+.sp2		/* used on the 2009 specialty page */
+	{
+	margin: 0 0 0 1.0em;
+	text-align: left;
+	width: 80%;
+	}
+
+.sp3		/* used on the 2009 specialty page */
+	{
+	margin-left: 3.0em;
+	text-align: left;
+	}
+
+.arttitle 
+	{
+	text-decoration: underline;
+	}
+.cname { width: 10.0em;	}
+.rname { width: 9.0em;	}
+.phone { padding-right: .5em; text-align: right; width: 9.0em;	}
+.email { width: 17.0em;	}
+.lib	{margin-bottom: 12px; }
+.items-body
+	{
+	font-size: 100%;
+	width: 680px; 
+	margin-bottom: 12px;
+	}
+.items-head
+	{
+	text-align: left; 
+	font-size: 120%; 
+	font-weight: bold; 
+	text-decoration: underline; 
+	margin-bottom: 8px;
+	}
+/*
+ * Styles for the slide shows.
+ * Positions of the picture box and the 'play again' button
+ */
+#picbox
+	{
+	position: relative;
+	top: 20px;
+	left: 36px;
+	z-index: 21;
+	}
+#replay
+	{
+	position: relative;
+	top: 20px;
+	left: 36px;
+	z-index: 20;
+	margin-bottom: 12px;
+	}
+.img0b	{	border: 0px solid white;	}
+.aindex	{ text-decoration: none;	}
+
+.mt12	{ margin-top: 12px; }
+.pt12	{ padding-top: 12px; }
+.bordt	{ border-top: 1px solid black; }
+.bordb	{ border-bottom: 1px solid black; }
