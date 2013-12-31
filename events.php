@@ -44,6 +44,8 @@ From time to time we gather with our puppies and Take Pictures!<br>
 If you have any to share, please forward them to <a href="mailto:ClubSecretary@StdSchnauzer.com">ClubSecretary@StdSchnauzer.com</a>
 <br>
 <ul>
+	<li><a href="brags2012.htm">2012 Brags &amp; Boasts</a></li>
+	<li><a href="title_earners_2011.htm">2011 Title Earners</a></li>
 	<li><a href="specialty_2011.htm">2011 Specialty</a></li>
 	<li><a href="ss_walk_2011.htm">2011 SS Walk</a></li>
 	<li><a href="grooming_2010.htm">Grooming Day 2010</a></li>

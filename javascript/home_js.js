@@ -24,18 +24,7 @@ var $menu = [
 
 	{	name: "About The SSCNC",		title: "About The SSCNC",				url: "aboutus.htm" },
 
-	{	name: "SSCNC Activities",		submenu: [
-		{	name: "Conformation Showing",		title: "Conformation Showing",					url:"conformation.htm" },
-		{	name: "Obedience Trials",			title: "Obedience Trials",						url:"obedience.php" },
-		{	name: "Rally Trials",				title: "Rally Trials",							url:"rally.htm" },
-		{	name: "Agility Trials",				title: "Agility Trials",						url:"agility.htm" },
-		{	name: "Tracking",					title: "Tracking",								url:"tracking.htm" },
-		{	name: "K9 Nose Work",				title: "K9 Nose Work",							url:"k9nose.htm" },
-		{	name: "Herding",					title: "Herding",								url:"herding.htm" },
-		{	name: "SSCNC People Events",		title: "SSCNC People Events",					url:"people_events.htm" },
-		]},
-
-	{	name: "2014 Regional Info",		title: "2014 SSCNC Regional Info",		url: "regional2014.htm" },
+	{	name: "2014 Specialties Info",		title: "2014 SSCNC Specialties Info",		url: "pdf/2014_specialties.pdf" },
 
 	{	name: "SSCNC ORGANIZATION",		submenu: [
 		{	name: "SSCNC Club History",			title: "SSCNC Club History",					url:"history.htm" },
@@ -52,8 +41,6 @@ var $menu = [
 
 	{	name: "UPCOMING SSCNC EVENTS",	submenu: [
 		{	name: "Past Events",				title: "Past Events",							url:"events.php" },
-		{	name: "2011 Title Earners",			title: "2011 Title Earners",					url:"title_earners_2011.htm" },
-		{	name: "2012 Brags &amp; Boasts",	title: "2012 Brags &amp; Boasts",				url:"brags2012.htm" },
 		{	name: "Calendar",					title: "Calendar",								url:"calendar.htm" },
 		]},
 	];
