@@ -24,7 +24,7 @@ var $menu = [
 
 	{	name: "About The SSCNC",		title: "About The SSCNC",				url: "aboutus.htm" },
 
-/*	{	name: "2014 Specialties Info",		title: "2014 SSCNC Specialties Info",		url: "pdf/2014_specialties.pdf" }, */
+	{	name: "2014 Specialties Info",		title: "2014 SSCNC Specialties Info",		url: "regional2014.htm" },
 
 	{	name: "SSCNC ORGANIZATION",		submenu: [
 		{	name: "SSCNC Club History",			title: "SSCNC Club History",					url:"history.htm" },
