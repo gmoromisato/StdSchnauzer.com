@@ -14,14 +14,14 @@
 function doEmails( $position )
 {
 $emails    = new Object();
-$emails['president']      = new Array( 'NUNZIRR@PEOPLEPC.COM',       'Rene Nunzir',     'SSCNC%20President' );
+$emails['president']      = new Array( 'sscnckim@icloud.com',        'Kim Studley',     'SSCNC%20President' );
 // $emails['newsletter']     = new Array( 'NUNZIRR@PEOPLEPC.COM',       'Rene Nunzir', 'SSCNC%newsletter' );
 $emails['vicepresident1'] = new Array( 'janvilcon@yahoo.com',        'Janis Conway',   'SSCNC%20First%20Vice%20President' );
 $emails['vicepresident2'] = new Array( 'ladiletti@aol.com',          'Linda Adiletti',     'SSCNC%20Second%20Vice%20President'  );
 $emails['treasurer']      = new Array( 'dmmiche@pacbell.net',        'John Michelmore', 'SSCNC%20Treasurer' );
-$emails['secretary']      = new Array( 'mabugglin@sbcglobal.net',    'Mary Bugglin', 'SSCNC%20Secretary' );
-$emails['membersatlarge1']= new Array( 'kimstudley@me.com',          'Kim Studley',     'SSCNC%20Members-At-Large' );
-$emails['membersatlarge2']= new Array( 'rhondasdavis@sbcglobal.net', 'Rhonda Davis',    'SSCNC%20Members-At-Large' );
+$emails['secretary']      = new Array( 'sscncmaryw@gmail.com',       'Mary Wood', 'SSCNC%20Secretary' );
+$emails['membersatlarge1']= new Array( 'psemple19@gmail.com',        'Paul Semple',     'SSCNC%20Members-At-Large' );
+$emails['membersatlarge2']= new Array( 'dmmiche@pacbell.net',        'Dottie Michelmore',    'SSCNC%20Members-At-Large' );
 $emails['rescue']         = new Array( 'dmmiche@pacbell.net',        'Dottie Michelmore','SSCNC%20Rescue' );
 $emails['stripper']       = new Array( 'NUNZIRR@PEOPLEPC.COM',       'Rene Nunzir', 'SSCNC%20Stripper%20Newsletter' );
 $emails['membership']     = new Array( 'demljust@pacbell.net',       'Mary Lou Just',   'SSCNC%20Membership' );
