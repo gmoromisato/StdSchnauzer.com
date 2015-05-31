@@ -39,9 +39,9 @@ $emails['sscnc_'] = new Array( 'demljust@pacbell.net',     'Mary Lou Just',   'S
  * Email addresses for the 2010 regional
  */
 $emails['regional_xxx_chair']    = new Array( 'ladiletti@aol.com',     'Linda Adiletti',  'SSCNC%202010%20Regional%20Chair'  );
-$emails['regional_chair']    = new Array( 'kimstudley@me.com',     'Kim Studley',     'SSCNC%202010%20Regional%20Co-Chair' );
+$emails['regional_chair']    = new Array( 'kimstudley@me.com',     'Kim Studley',     'SSCNC%202015%20Specialty%20Chair' );
 $emails['performance_events']= new Array( 'melinda.eaton@att.net', 'Melinda &amp; Kim Eaton',     'Performance%20Events' );
-$emails['trophies']          = new Array( 'cdah@comcast.net',      'Kim Lemke',       'Trophy%20Availability' );
+$emails['trophies']          = new Array( 'NUNZIRR@PEOPLEPC.COM',   'Rene Nunzir',       'Trophy%20Availability' );
 $emails['advertising']       = new Array( 'NUNZIRR@PEOPLEPC.COM',  'Contact Information &amp; Advertising', 'Contact%20Information%20Advertising' );
 $emails['agility']           = new Array( 'lorie@abbadogs.com',    'Lorie Abbott', 'Agility%20Trial%20Secretary' );
 $emails['dinner1']           = new Array( 'MJWEIGAND@comcast.net', 'Mary Jo Weigand', 'Saturday%20evening%20Auction' );
